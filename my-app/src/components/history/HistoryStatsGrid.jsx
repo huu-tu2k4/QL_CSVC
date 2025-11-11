@@ -1,12 +1,5 @@
 // src/components/history/HistoryStatsGrid.jsx
-const stats = [
-  { value: 6, label: 'Tổng sự kiện', icon: 'bi-journal-text' },
-  { value: 2, label: 'Mua sắm', icon: 'bi-cart4' },
-  { value: 2, label: 'Bảo trì/Sửa chữa', icon: 'bi-tools' },
-  { value: 1, label: 'Kiểm kê', icon: 'bi-clipboard-check' },
-];
-
-export default function HistoryStatsGrid() {
+export default function HistoryStatsGrid({ stats }) {
   return (
     <div className="row g-3 mb-4">
       {stats.map((s, i) => (

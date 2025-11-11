@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar';
 import Header from './components/Header';
 import DashboardPage from './pages/DashboardPage';
 import DevicesPage from './pages/DevicesPage';
-import EquipmentHistoryPage from './pages/EquipmentHistoryPage';
+import EquipmentHistoryPage from './pages/DeviceHistoryPage';
 import MaintenancePage from './pages/MaintenancePage';
 import PurchasePage from './pages/PurchasePage';
 import InventoryPage from './pages/InventoryPage';
