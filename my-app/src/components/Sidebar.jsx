@@ -62,21 +62,6 @@ export default function Sidebar({ isOpen }) {
           ))}
         </ul>
       </nav>
-
-      {/* User */}
-      {isOpen && (
-        <div className="p-3 border-top border-secondary">
-          <div className="d-flex align-items-center gap-2">
-            <div className="bg-secondary rounded-circle d-flex align-items-center justify-content-center" style={{ width: '36px', height: '36px' }}>
-              <i className="bi bi-person text-white"></i>
-            </div>
-            <div className="text-truncate">
-              <p className="mb-0 small fw-medium text-white text-truncate">Admin</p>
-              <p className="mb-0 text-xs text-light opacity-75 text-truncate">admin@utc.edu.vn</p>
-            </div>
-          </div>
-        </div>
-      )}
     </aside>
   );
 }
