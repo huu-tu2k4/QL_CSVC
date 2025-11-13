@@ -9,6 +9,7 @@ import EquipmentHistoryPage from './pages/DeviceHistoryPage';
 import MaintenancePage from './pages/MaintenancePage';
 import PurchasePage from './pages/PurchasePage';
 import InventoryPage from './pages/InventoryPage';
+import LiquidationPage from './pages/LiquidationPage';
 import UnitsPage from './pages/UnitsPage';
 import RoomsPage from './pages/RoomsPage';
 import UsersPage from './pages/UsersPage';
@@ -33,6 +34,7 @@ export default function App() {
                 <Route path="/maintenance" element={<MaintenancePage />} />
                 <Route path="/purchase" element={<PurchasePage />} />
                 <Route path="/inventory" element={<InventoryPage />} />
+                <Route path="/liquidation" element={<LiquidationPage />} />
                 <Route path="/units" element={<UnitsPage />} />
                 <Route path="/rooms" element={<RoomsPage />} />
                 <Route path="/users" element={<UsersPage />} />

@@ -9,6 +9,7 @@ export default function Sidebar({ isOpen }) {
     { to: '/maintenance', icon: 'bi-tools', label: 'Bảo trì' },
     { to: '/purchase', icon: 'bi-cart3', label: 'Mua sắm' },
     { to: '/inventory', icon: 'bi-clipboard-check', label: 'Kiểm kê' },
+    { to: '/liquidation', icon: 'bi-recycle', label: 'Thanh lý' },
     { to: '/units', icon: 'bi-building', label: 'Đơn vị' },
     { to: '/rooms', icon: 'bi-door-open', label: 'Phòng' },
     { to: '/users', icon: 'bi-people', label: 'Người dùng' },
