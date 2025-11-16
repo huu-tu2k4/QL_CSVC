@@ -1,5 +1,5 @@
 // src/services/lichSuService.js
-import axios from '../api/axios';
+import axios from '../api/axiosInstance';
 
 const LICH_SU_API = '/api/lich_su';
 

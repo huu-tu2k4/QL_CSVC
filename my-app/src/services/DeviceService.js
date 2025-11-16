@@ -1,5 +1,5 @@
 // src/services/thietBiService.js
-import axios from '../api/axios';
+import axios from '../api/axiosInstance';
 
 const THIET_BI_API = '/api/thiet_bi';
 

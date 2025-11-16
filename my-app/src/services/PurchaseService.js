@@ -1,5 +1,5 @@
 // src/services/purchaseService.js
-import axios from '../api/axios';
+import axios from '../api/axiosInstance';
 
 const PURCHASE_API = '/api/mua_moi';
 

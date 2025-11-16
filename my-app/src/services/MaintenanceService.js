@@ -1,5 +1,5 @@
 // src/services/baoTriService.js
-import axios from '../api/axios';
+import axios from '../api/axiosInstance';
 
 const BAO_TRI_API = '/api/bao_tri';
 

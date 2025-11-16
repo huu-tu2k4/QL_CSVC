@@ -1,5 +1,5 @@
 // src/services/kiemKeService.js
-import axios from '../api/axios';
+import axios from '../api/axiosInstance';
 
 const KIEM_KE_API = '/api/kiem_ke';
 

@@ -1,5 +1,5 @@
 // src/services/thanhLyService.js
-import axios from '../api/axios';
+import axios from '../api/axiosInstance';
 
 const THANH_LY_API = '/api/thanh_ly';
 

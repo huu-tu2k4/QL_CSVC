@@ -1,5 +1,5 @@
 // src/services/phongService.js
-import axios from '../api/axios';
+import axios from '../api/axiosInstance';
 
 const PHONG_API = '/api/phong';
 

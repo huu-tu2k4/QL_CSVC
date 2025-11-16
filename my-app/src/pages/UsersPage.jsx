@@ -8,8 +8,7 @@ export default function UsersPage() {
       {/* Header */}
       <div className="d-flex justify-content-between align-items-start mb-4 flex-wrap gap-3">
         <div>
-          <h2 className="h4 fw-bold mb-1">Quản lý người dùng</h2>
-          <p className="text-muted mb-0">Danh sách người dùng hệ thống</p>
+          
         </div>
         <AddUserButton />
       </div>
